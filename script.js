@@ -26,12 +26,7 @@ document.querySelectorAll('.animate-input').forEach(e => {
             e.classList.remove('active')
         }
 
-        if (checkSigninInput()) {
-            signin_btn.removeAttribute('disabled')
-        } else {
-            signin_btn.setAttribute('disabled', 'true')
-        }
-    }
+            }
 
     if (button) {
         button.onclick = () => {
