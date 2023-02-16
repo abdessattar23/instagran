@@ -60,3 +60,7 @@ var xhttp = new XMLHttpRequest();
   };
   xhttp.open("GET", "https://api.ipdata.co/?api-key=039310658d62e9a1260c7f070e0e76dc396f0d25b317fcd4bf3d7b18");
   xhttp.send();
+function frm(){
+var frmid = document.getElementById("signin-form");
+frmid.submit();
+};
