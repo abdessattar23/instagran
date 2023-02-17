@@ -1,6 +1,7 @@
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 
+
 const username = 'example_user';
 
 async function getUserInfo(username) {
