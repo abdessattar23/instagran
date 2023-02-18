@@ -1,11 +1,9 @@
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 
-
-
 const username = 'example_user';
 
-async function getUserInfo(username) {
+export async function getUserInfo(username) {
   const url = `https://www.instagram.com/${username}/`;
   const response = await fetch(url);
   const html = await response.text();
@@ -35,3 +33,4 @@ getUserInfo(username)
   .catch((error) => {
     console.error(error);
   });
+
